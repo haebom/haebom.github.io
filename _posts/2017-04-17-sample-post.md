@@ -5,7 +5,7 @@ excerpt: "이곳에는 인용 문구를 넣어서 멋진 척을 할 수 있습�
 categories:
 comments: true
 image:
-  feature: https://cdn.pixabay.com/photo/2014/12/03/21/20/kittens-555822_960_720.jpg
+  feature: https://pbs.twimg.com/media/C9suR_sUQAA5JSW.jpg
   credit: 전국애묘협회
   creditlink: https://pixabay.com/
 ---
@@ -32,7 +32,7 @@ image:
 
 일단 **고양이 사진**을 보고 가시죠.
 
-![Smithsonian Image](https://cdn.pixabay.com/photo/2014/06/03/01/31/cat-360807_960_720.jpg)
+![Smithsonian Image](https://pbs.twimg.com/media/C9suRZaUMAEBzPH.jpg)
 
 이텔릭체로 글을 쓰고 싶으시다구요?
 뭐, 가끔 그렇게 비스듬히 글을 쓰고 싶을 때가 있습니다.
@@ -62,7 +62,7 @@ image:
    2. 목차 형태로
    3. 보여집니다.
       물론 이렇게 본문도 쓸 수 있구요.
-      
+
 2. 구조적/형식적인 글을 쓸 때 유용하겠군요!
 
 ### 번호가 싫으시다면
