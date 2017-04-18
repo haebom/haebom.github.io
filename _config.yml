@@ -35,10 +35,10 @@ kramdown:
 owner:
   name: Haebom
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job:
+  bio:
   email:
-  disqus-shortname:haebom
+  disqus-shortname: haebom
   twitter: haebomi
   facebook: #username
   google:
