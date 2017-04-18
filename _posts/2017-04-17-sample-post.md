@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 이것은 제목 입니다.
+title: 마크다운으로 글쓰기
 excerpt: "이곳에는 인용 문구를 넣어서 멋진 척을 할 수 있습니다."
 categories:
 comments: true
@@ -33,7 +33,6 @@ image:
 일단 **고양이 사진**을 보고 가시죠.
 
 ![Smithsonian Image](https://cdn.pixabay.com/photo/2014/06/03/01/31/cat-360807_960_720.jpg)
-{: .pull-right}
 
 이텔릭체로 글을 쓰고 싶으시다구요?
 뭐, 가끔 그렇게 비스듬히 글을 쓰고 싶을 때가 있습니다.
