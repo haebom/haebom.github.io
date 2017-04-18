@@ -1,63 +1,81 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-categories: [hello world]
+title: 이것은 제목 입니다.
+excerpt: "이곳에는 인용 문구를 넣어서 멋진 척을 할 수 있습니다."
+categories:
 comments: true
 image:
-  feature: https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
+  feature: https://cdn.pixabay.com/photo/2014/12/03/21/20/kittens-555822_960_720.jpg
+  credit: 전국애묘협회
+  creditlink: https://pixabay.com/
 ---
 
-## HTML Elements
+마크다운을 이용해 아래와 같이 표현 할 수 있습니다.
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+# 제목 1
 
-# Heading 1
+## 제목 2
 
-## Heading 2
+### 제목 3
 
-### Heading 3
+#### 제목 4
 
-#### Heading 4
+##### 제목 5
 
-##### Heading 5
+###### 제목 6
 
-###### Heading 6
+### 본문 작성에 대해 알아봅시다.
 
-### Body text
+마크다운에서 "** **" 을 사용하면 **이렇게 강조를 할 수 있습니다.**. 정말 쉽고 멋지죠! 사실 저는 ctrl+b가 더 편한데.. 뭐 지원을 안하니..
 
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
+이미지를 넣고 싶다면 !와 [Smithsonian Image]를 이용해 넣을 수 있습니다. 이 뒤에 이미지 경로를 붙이면 됩니다.
 
-![Smithsonian Image](https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250)
+일단 **고양이 사진**을 보고 가시죠.
+
+![Smithsonian Image](https://cdn.pixabay.com/photo/2014/06/03/01/31/cat-360807_960_720.jpg)
 {: .pull-right}
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+이텔릭체로 글을 쓰고 싶으시다구요?
+뭐, 가끔 그렇게 비스듬히 글을 쓰고 싶을 때가 있습니다.
+그럴땐 "* *"를 사용해보세요.
+*이렇게 말이죠*.
+참 쉽죠?
 
-HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
 
-### Blockquotes
+### 멋진 인용문을 쓸때
 
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
+내가 한 말을 아니지만 가지고 오고 싶은 말이 가끔 있습니다.
+그럴 땐 인용 표시를 해줍시다. 사실 그냥 블록 하나 추가하는 거에요.
+" > " 를 사용하면 쉽게 할 수 있습니다.
 
-## List Types
+> 치킨은 인 당 한 마리씩 시켜야 다툼이 없다.
 
-### Ordered Lists
+이렇게 말이죠.
 
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
+## 목차를 만들고 싶다구요?
 
-### Unordered Lists
+그런 번거로운 것을..! 아닙니다. 때론 필요합니다.
 
-* Item one
-* Item two
-* Item three
+### 목차  <- 요건 제목처럼 해주세요.
 
-## Tables
+1. 번호를 붙이고 Enter를 치면
+   1. 이렇게
+   2. 목차 형태로
+   3. 보여집니다.
+      물론 이렇게 본문도 쓸 수 있구요.
+      
+2. 구조적/형식적인 글을 쓸 때 유용하겠군요!
+
+### 번호가 싫으시다면
+
+* 이렇게 점으로 하는 방법도 있습니다.
+* "*"을 붙이고 글을 쓰면 앞에 이렇게 점이 생겨요.
+* PPT 같은 곳에서 많이 보던 스타일이죠.
+* 저는 번호보다 이게 더 좋네요.
+
+## 표를 만들고 싶다니..?
+
+마크다운에서 표를 만드는 것 아주 귀찮습니다.
 
 | Header 1 | Header 2 | Header 3 |
 |:--------|:-------:|--------:|
@@ -69,31 +87,31 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 |=====
 | Foot 1   | Foot 2   | Foot 3   |
 
-## Code Snippets
+이렇게 만들 수 있지만 그냥 엑셀을 쓰는게 234623528배 정도 편합니다.
+엑셀을 쓰세요.
 
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
+## 코드를 멋드러지게 문법을 적용하고 싶을땐 이렇게 해봅시다.
+
+highlight와 코드명을 입력하고 아래와 같이 치면 됩니다.
+
+{% highlight python %}
+print "hello world"
 {% endhighlight %}
 
-## Buttons
+하긴.. 누가 신경 쓰겠어요.
 
-Make any link standout more when applying the `.btn` class.
+## 이쁜 버튼을 달고 싶다면
+
+저는 잘 쓰지 않지만 버튼도 이렇게 만들수 있죠`.btn` 클래스를 이용해서요.
+사실 위의 highlight를 html로 나타낸거랍니다. 정말 귀찮군요!
 
 {% highlight html %}
 <a href="#" class="btn btn-success">Success Button</a>
 {% endhighlight %}
 
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+<div markdown="0"><a href="#" class="btn">시작 버튼</a></div>
+<div markdown="0"><a href="#" class="btn btn-success">성공 버튼</a></div>
+<div markdown="0"><a href="#" class="btn btn-warning">주의 버튼</a></div>
+<div markdown="0"><a href="#" class="btn btn-danger">위험 버튼</a></div>
+<br>
+<div markdown="0"><a href="#" class="btn btn-info">이걸 왜 하고 있죠?</a></div>
