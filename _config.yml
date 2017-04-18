@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Haebom's Blog
 email:
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
+description: 해봄의 블로그 입니다. 잘 부탁드립니다.
+url: https://haebom.github.io/
 
 
 #
@@ -14,7 +14,7 @@ url: # the base hostname & protocol for your site
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Seoul
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
