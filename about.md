@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-블로그에 오신 걸 환영 합니다.
-
-### More Information
-
-지금은 테스트 중이라 블로그가 수리 중 입니다.
+경영학 전공, 마케팅 담당자
+블로그에서 궁금한게 있으면 메일 주세요.
 
 ### Contact me
 
-[taylor.ahn@daum.net](mailto:taylor.ahn@daum.net)
+[haebom.li@gmail.com](mailto:haebom.li@gmail.com)
