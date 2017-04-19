@@ -7,7 +7,7 @@ comments: true
 image:
   feature: https://pbs.twimg.com/media/C9suR_sUQAA5JSW.jpg
   credit: 전국애묘협회
-  creditlink: https://pixabay.com/
+  creditlink:
 ---
 
 마크다운을 이용해 아래와 같이 표현 할 수 있습니다.
@@ -34,17 +34,17 @@ image:
 
 ![Smithsonian Image](https://pbs.twimg.com/media/C9suRZaUMAEBzPH.jpg)
 
-이텔릭체로 글을 쓰고 싶으시다구요?
-뭐, 가끔 그렇게 비스듬히 글을 쓰고 싶을 때가 있습니다.
-그럴땐 "* *"를 사용해보세요.
-*이렇게 말이죠*.
-참 쉽죠?
+이텔릭체로 글을 쓰고 싶으시다구요?<br>
+뭐, 가끔 그렇게 비스듬히 글을 쓰고 싶을 때가 있습니다.<br>
+그럴땐 "* *"를 사용해보세요.<br>
+*이렇게 말이죠*.<br>
+참 쉽죠?<br>
 
 
 ### 멋진 인용문을 쓸때
 
-내가 한 말을 아니지만 가지고 오고 싶은 말이 가끔 있습니다.
-그럴 땐 인용 표시를 해줍시다. 사실 그냥 블록 하나 추가하는 거에요.
+내가 한 말을 아니지만 가지고 오고 싶은 말이 가끔 있습니다.<br>
+그럴 땐 인용 표시를 해줍시다. 사실 그냥 블록 하나 추가하는 거에요.<br>
 " > " 를 사용하면 쉽게 할 수 있습니다.
 
 > 치킨은 인 당 한 마리씩 시켜야 다툼이 없다.
@@ -105,8 +105,10 @@ print "hello world"
 사실 위의 highlight를 html로 나타낸거랍니다. 정말 귀찮군요!
 
 {% highlight html %}
-<a href="#" class="btn btn-success">Success Button</a>
+<a href="#" class="btn btn-success">성공 버튼</a>
 {% endhighlight %}
+
+아래와 같이 바로 만들 수도 있답니다.
 
 <div markdown="0"><a href="#" class="btn">시작 버튼</a></div>
 <div markdown="0"><a href="#" class="btn btn-success">성공 버튼</a></div>
